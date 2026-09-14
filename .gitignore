@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Données volumineuses (à ne pas versionner)
+data/raw/
+data/processed/*.csv
+data/processed/*.parquet
+
+# Modèles entraînés (souvent lourds)
+models/*.pkl
+models/*.joblib
+
+# Variables d'environnement / clés API
+.env
